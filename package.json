@@ -1,0 +1,14 @@
+{
+  "name": "discoball",
+  "version": "1.0.0",
+  "description": "Discord scraper that uses puppeteer to create screenshots",
+  "main": "src/a_start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "puppeteer": "^13.4.0"
+  }
+}
