@@ -4,7 +4,7 @@ const fs = require('fs/promises');
 const pauseBetweenShots = 3000; // milliseconds
 const bottomPadding = 48; // this is so we don't screenshot the "you are viewing older messages" bar. FIXME: can we just hide that instead?
 
-var screenshotNum = 361;
+var screenshotNum = 1;
 
 async function atEndOfScroll(el) {
     return el.evaluate((node) => {
